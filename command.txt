@@ -1,0 +1,1 @@
+python generate.py examples/bases/chicago.jpg examples/styles/umbrella_girl.jpg examples/results/my_result
