@@ -7,9 +7,8 @@ This is a Keras implementation of [A Neural Algorithm of Artistic Style](https:/
 </div>
 
 <div align = 'center'>
-<img src = './examples/thumbnail/the_scream.jpg' height = '200px'>
-<img src = './examples/results/my_result_at_iteration_0.png' height = '200px'>
-<img src = './examples/results/my_result_at_iteration_499.png' height = '200px'>
+<img src = './examples/cqupt/xinke.jpg' height = '200px'>
+
 </div>
 
 <br>
@@ -23,7 +22,9 @@ Styling an image is done through `generate.py` as follows:
 ```python
 python generate.py examples/bases/chicago.jpg examples/styles/umbrella_girl.jpg examples/results/my_result
 ```
-
+```python
+python generate.py
+```
 For a more detailed documentation along with the default parameters click [here](https://github.com/kevinzakka/style_transfer/blob/master/docs.md).
 
 ## Requirements
